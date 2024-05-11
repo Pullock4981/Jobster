@@ -33,11 +33,11 @@
 
     <!-- header -->
 
-    <header>
+    <header class="lg:ml-20 ml-4 lg:mr-20">
 
         <!-- nav section -->
 
-        <div class="navbar bg-base-100 mt-5">
+        <div class="navbar bg-[#7EA7D4] bg-opacity-90 mt-5">
             <div class="navbar-start">
                 <div class="dropdown">
                     <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
@@ -48,51 +48,39 @@
                         </svg>
                     </div>
                     <ul tabindex="0"
-                        class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
-                        <li><a>Item 1</a></li>
-                        <li>
-                            <a>Parent</a>
-                            <ul class="p-2">
-                                <li><a>Submenu 1</a></li>
-                                <li><a>Submenu 2</a></li>
-                            </ul>
-                        </li>
-                        <li><a>Item 3</a></li>
+                        class="menu menu-sm dropdown-content mt-3 z-[1] flex justify-center items-center p-5 shadow bg-base-100 rounded-box w-64 text-lg font-bold">
+                        <li><a>Home</a></li>
+                        <li><a>About</a></li>
+                        <li><a>Job Info</a></li>
+                        <li><a>Education</a></li>
                     </ul>
                 </div>
-                <a class="btn btn-ghost text-xl">daisyUI</a>
+                <a class="btn btn-ghost text-2xl font-extrabold">Jobstar</a>
             </div>
             <div class="navbar-center hidden lg:flex">
-                <ul class="menu menu-horizontal px-1">
-                    <li><a>Item 1</a></li>
-                    <li>
-                        <details>
-                            <summary>Parent</summary>
-                            <ul class="p-2">
-                                <li><a>Submenu 1</a></li>
-                                <li><a>Submenu 2</a></li>
-                            </ul>
-                        </details>
-                    </li>
-                    <li><a>Item 3</a></li>
+                <ul class="menu menu-horizontal px-1 text-lg font-bold">
+                    <li><a>Home</a></li>
+                    <li><a>About</a></li>
+                    <li><a>Job Info</a></li>
+                    <li><a>Education</a></li>
                 </ul>
             </div>
             <div class="navbar-end">
-                <a class="btn">Log in</a>
+                <a class="btn font-bold bg-[#a256c8] text-white hover:text-black">Log in</a>
             </div>
         </div>
 
         <!-- hero section -->
 
-        <div class="hero lg:min-h-screen h-80 lg:mt-10 mt-6"
-            style="background-image: url(https://img.daisyui.com/images/stock/photo-1507358522600-9f71e620c44e.jpg);">
-            <div class="hero-overlay bg-opacity-60"></div>
+        <div class="hero lg:min-h-screen h-80 lg:mt-2 mt-4" style="background-image: url(assats/cover.jpg);">
+            <div class="hero-overlay bg-opacity-70"></div>
             <div class="hero-content text-center text-neutral-content">
                 <div class="max-w-md">
                     <h1 class="mb-5 text-5xl font-bold">Hello there</h1>
                     <p class="mb-5">Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi
                         exercitationem quasi. In deleniti eaque aut repudiandae et a id nisi.</p>
-                    <button class="btn btn-primary">Get Started</button>
+                    <button class="btn lg:btn-wide bg-[#a256c8] text-white hover:text-black"><i
+                            class="fa-solid fa-magnifying-glass"></i> Search</button>
                 </div>
             </div>
         </div>
@@ -105,13 +93,13 @@
 
         <!-- about section -->
 
-        <section class="about mt-20">
+        <section class="about mt-20 py-16 bg-[#e6e8eb] lg:ml-20 ml-4 lg:mr-20 rounded-xl">
 
             <div>
                 <h2 class="text-center lg:text-5xl text-3xl font-extrabold">
                     About Us
                 </h2>
-                <p class="mt-5 text-center">
+                <p class="mt-5 text-center px-5 lg:px-0">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis, expedita? Lorem ipsum dolor sit
                     amet
                     consectetur <br> adipisicing elit. Provident, in!
@@ -120,107 +108,33 @@
 
             <div class="mt-20 lg:ml-20 ml-4 lg:mr-20  mr-4">
 
-                <div class="flex lg:flex-row flex-col justify-between items-center lg:gap-8 gap-4">
+                <div class="flex lg:flex-row flex-col justify-center items-center lg:gap-32 gap-10">
                     <!-- card-1 -->
                     <div class="card w-96 bg-base-100 shadow-xl">
                         <figure class="px-10 pt-10">
-                            <img src="assats/50426.jpg" alt="Shoes" class="rounded-xl h-48 w-full" />
+                            <img src="assats/education.jpg" alt="Shoes" class="rounded-xl" />
                         </figure>
                         <div class="card-body items-center text-center">
-                            <h2 class="card-title">Admin</h2>
+                            <h2 class="card-title">Job Info</h2>
                             <p>If a dog chews shoes whose shoes does he choose?</p>
                             <div class="card-actions">
-                                <button class="btn btn-primary">See more...</button>
+                                <button class="btn bg-[#a256c8] text-white hover:text-black">See more...</button>
                             </div>
                         </div>
                     </div>
                     <!-- card-2 -->
                     <div class="card w-96 bg-base-100 shadow-xl">
                         <figure class="px-10 pt-10">
-                            <img src="assats/2108.q705.020.S.m005.c10.healthcare medications.jpg" alt="Shoes"
-                                class="rounded-xl" />
+                            <img src="assats/education.jpg" alt="Shoes" class="rounded-xl" />
                         </figure>
                         <div class="card-body items-center text-center">
-                            <h2 class="card-title">Medicine</h2>
+                            <h2 class="card-title">Education</h2>
                             <p>If a dog chews shoes whose shoes does he choose?</p>
                             <div class="card-actions">
-                                <button class="btn btn-primary">See more...</button>
+                                <button class="btn bg-[#a256c8] text-white hover:text-black">See more...</button>
                             </div>
                         </div>
                     </div>
-                    <!-- card-3 -->
-                    <div class="card w-96 bg-base-100 shadow-xl">
-                        <figure class="px-10 pt-10">
-                            <img src="assats/asian-young-main-group-hospital-professional.jpg" alt="Shoes"
-                                class="rounded-xl" />
-                        </figure>
-                        <div class="card-body items-center text-center">
-                            <h2 class="card-title">Doctors</h2>
-                            <p>If a dog chews shoes whose shoes does he choose?</p>
-                            <div class="card-actions">
-                                <button class=" btn btn-primary">See more...</button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-            </div>
-
-        </section>
-
-        <!-- service section -->
-
-        <section class="about mt-20">
-
-            <div>
-                <h2 class="text-center lg:text-5xl text-3xl font-extrabold">
-                    Our Services
-                </h2>
-                <p class="mt-5 text-center">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis, expedita? Lorem ipsum dolor sit
-                    amet
-                    consectetur <br> adipisicing elit. Provident, in!
-                </p>
-            </div>
-
-            <div class="mt-20 lg:ml-20 ml-4 lg:mr-20  mr-4">
-
-                <div class="flex lg:flex-row flex-col justify-center items-center lg:gap-8 gap-4">
-                    <!-- card-1 -->
-                    <div class="card w-96 bg-base-100 shadow-xl">
-                        <figure class="px-10 pt-10">
-                            <img src="assats/5739306.jpg" alt="Shoes" class="rounded-xl" />
-                        </figure>
-                        <div class="card-body items-center text-center">
-                            <h2 class="card-title">Ambulance Service</h2>
-                            <p>If a dog chews shoes whose shoes does he choose?</p>
-                            <div class="card-actions">
-                                <button class="btn btn-primary">See more...</button>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- card-2 -->
-                    <!-- card-2 -->
-                    <div class="card w-96 bg-base-100 shadow-xl">
-                        <figure class="px-10 pt-10">
-                            <img src="assats/5183184.jpg" alt="Shoes" class="rounded-xl" />
-                        </figure>
-                        <div class="card-body items-center text-center">
-                            <h2 class="card-title">Online Doctor</h2>
-                            <p>If a dog chews shoes whose shoes does he choose?</p>
-                            <div class="card-actions">
-                                <button id="bookAppointmentBtn" class="btn btn-primary">Book Appointment</button>
-                            </div>
-                        </div>
-                    </div>
-                    <script>
-                        document.addEventListener('DOMContentLoaded', function () {
-                            var bookAppointmentButton = document.getElementById('bookAppointmentBtn');
-                            bookAppointmentButton.addEventListener('click', function () {
-                                window.location.href = 'appointment.html';
-                            });
-                        });
-                    </script>
                 </div>
 
             </div>
@@ -229,24 +143,24 @@
 
         <!-- contact section -->
 
-        <section class="contact mt-20">
+        <section class="contact mt-20 bg-[#eadff0] lg:ml-20 ml-4 lg:mr-20 rounded-xl lg:p-16 py-10 lg:py-16">
             <div>
                 <h2 class="text-center lg:text-5xl text-3xl font-extrabold">
                     Contact Us
                 </h2>
-                <p class="mt-5 text-center">
+                <p class="mt-5 text-center px-5 lg:px-0">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis, expedita? Lorem ipsum dolor sit
                     amet
                     consectetur <br> adipisicing elit. Provident, in!
                 </p>
             </div>
 
-            <div class="flex lg:flex-row flex-col justify-between items-center">
-                <div class="w-1/2">
-                    <img src="assats/5124556.jpg" alt="">
+            <div class="flex lg:flex-row flex-col justify-between items-center mt-10">
+                <div class="w-1/2 ml-10">
+                    <img class="rounded-3xl" src="assats/contact.jpg" alt="">
                 </div>
 
-                <div class="border-2 rounded-xl mt-20 p-10 lg:mb-20 lg:py-10 lg:w-1/2 w-96 ml-8 mr-8">
+                <div class="border-2 rounded-xl mt-20 p-10 lg:mb-20 lg:py-10 lg:w-1/2 w-96 ml-8 mr-8 bg-white">
                     <div class="flex justify-center items-center">
                         <div class="flex justify-center items-center lg:w-1/2 gap-5">
                             <h3>
@@ -269,7 +183,7 @@
                         <textarea class="textarea textarea-bordered lg:w-96 w-60" placeholder="Massage..."></textarea>
                     </div>
                     <div class="flex justify-center items-end mt-5">
-                        <button class="btn">
+                        <button class="btn bg-[#a256c8] text-white hover:text-black">
                             Submit
                         </button>
                     </div>
@@ -284,7 +198,7 @@
                 <h2 class="text-center lg:text-5xl text-3xl font-extrabold">
                     Q&A
                 </h2>
-                <p class="mt-5 text-center">
+                <p class="mt-5 text-center px-5 lg:px-0">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis, expedita? Lorem ipsum dolor sit
                     amet
                     consectetur <br> adipisicing elit. Provident, in!
