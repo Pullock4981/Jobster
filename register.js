@@ -11,7 +11,9 @@
 
 // }
 
-function takeData() {
+function takeData(event) {
+
+    event.preventDefault()
 
     const firstName = getInputValueId('first-name');
     // const firstName = require('first-name');
