@@ -14,6 +14,7 @@
 function takeData() {
 
     const firstName = getInputValueId('first-name');
+    // const firstName = require('first-name');
     console.log("First Name :", firstName);
 
     const lastName = getInputValueId('last-name')
