@@ -14,7 +14,7 @@
 function takeData(event) {
 
     event.preventDefault()
-
+// take all input
     const firstName = getInputValueId('first-name');
     // const firstName = require('first-name');
     console.log("First Name :", firstName);
@@ -30,15 +30,6 @@ function takeData(event) {
 
     const ConfirmPassword = getInputValueId('verify-password');
     console.log("Confirm Password :", ConfirmPassword);
-
-    // const Date = getInputValueId('date');
-    // console.log("Date of Birth: Date :", Date);
-
-    // const month = getInputValueId('date');
-    // console.log("Date of Birth: Month :", month)
-
-    // const year = getInputValueId('date');
-    // console.log("Date of Birth: Year :", year);
 
     // show data in other section
 
