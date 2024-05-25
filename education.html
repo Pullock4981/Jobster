@@ -31,15 +31,15 @@
 
 <!-- body -->
 
-<body>
+<body class="poppins-font bg-gradient-to-t from-[#3D52A1] to-[#EFE9F3]">
 
     <!-- header -->
 
-    <header>
+    <header class="lg:ml-20 ml-4 lg:mr-20 mr-4">
 
         <!-- nav bar -->
 
-        <div class="navbar bg-[#25274D] bg-opacity-90 mt-5">
+        <div class="navbar  bg-opacity-90 pt-3">
             <div class="navbar-start">
                 <div class="dropdown">
                     <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
@@ -62,15 +62,20 @@
                 </div>
             </div>
             <div class="navbar-center hidden lg:flex">
-                <ul class="menu text-white menu-horizontal px-1 text-lg font-bold">
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="about.html">About</a></li>
-                    <li><a href="job.html">Job Info</a></li>
-                    <li><a href="education.html">Education</a></li>
+                <ul class="menu text-black menu-horizontal px-1 text-lg font-bold">
+                    <li class="hover:bg-gradient-to-l from-[#202853] to-[#bf7dea] hover:text-white rounded-xl"><a
+                            href="index.html">Home</a></li>
+                    <li class="hover:bg-gradient-to-l from-[#202853] to-[#bf7dea] hover:text-white rounded-xl"><a
+                            href="about.html">About</a></li>
+                    <li class="hover:bg-gradient-to-l from-[#202853] to-[#bf7dea] hover:text-white rounded-xl"><a
+                            href="job.html">Job Info</a></li>
+                    <li class="hover:bg-gradient-to-l from-[#202853] to-[#bf7dea] hover:text-white rounded-xl"><a
+                            href="education.html">Education</a></li>
                 </ul>
             </div>
             <div class="navbar-end gap-4">
-                <a href="login.html" class="btn font-bold bg-red-500 hover:bg-green-500 text-white">Log in</a>
+                <a href="login.html" class="btn font-bold bg-gradient-to-l from-[#202853] to-[#bf7dea] text-white">Log
+                    in</a>
             </div>
         </div>
 
@@ -79,6 +84,485 @@
     <!-- main -->
 
     <main>
+
+        <!-- field choose -->
+
+        <section
+            class="choose-field mt-20 py-16 bg-gradient-to-r from-[#C2CCFF] to-[#EFE9F3] lg:ml-20 ml-4 lg:mr-20 mr-4 rounded-xl">
+
+            <div>
+                <h2 class="text-center lg:text-5xl text-3xl font-extrabold">
+                    Choose Your field
+                </h2>
+                <p class="mt-5 text-center lg:px-5 lg:px-0">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis, expedita? Lorem ipsum dolor sit
+                    amet
+                    consectetur <br> adipisicing elit. Provident, in!
+                </p>
+            </div>
+            <!-- grand mother div -->
+
+            <div class="flex mt-10">
+                <!-- mother div -->
+                <div
+                    class="w-full flex justify-between items-center lg:flex-row flex-col border-2 border-black lg:p-4 m-6 gap-2">
+
+                    <!-- child-1 -->
+
+                    <div class="w-full flex justify-center items-cente border-2 lg:border-x-2 border-black">
+                        <h1 class="text-2xl font-bold">
+                            <button onclick="SeeClasses(event)">School</button>
+                        </h1>
+                    </div>
+
+                    <!-- child-2 -->
+
+                    <div class="w-full flex justify-center items-center border-2 lg:border-x-2 border-black">
+                        <h1 class="text-2xl font-bold">
+                            <button onclick="SeeCollege(event)">
+                                College
+                            </button>
+                        </h1>
+                    </div>
+
+                </div>
+            </div>
+
+            <!-- school div -->
+
+            <section id="primary-secondary" class="hidden">
+                <div class="mt-5 lg:p-4 border-2 border-black m-6">
+
+                    <div>
+                        <h1 class="lg:text-5xl text-3xl font-bold flex justify-center items-center mt-5">
+                            Primary Level :
+                        </h1>
+                    </div>
+
+                    <div class="flex lg:flex-row flex-col justify-between items-center lg:px-10 px-0 gap-5 mt-10">
+
+                        <div>
+                            <div class="card w-72 lg:w-96 bg-base-100 shadow-xl">
+                                <figure class="px-10 pt-10">
+                                    <img src="assats/class1.png" alt="Shoes" class="rounded-xl" />
+                                </figure>
+                                <div class="card-body items-center text-center">
+                                    <h2 class="card-title">Class-1</h2>
+                                    <p>If a dog chews shoes whose shoes does he choose?</p>
+                                    <div class="card-actions">
+                                        <button
+                                            class="btn bg-gradient-to-l from-[#202853] to-[#bf7dea] text-white mb-6">Explore
+                                            More</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="card w-72 lg:w-96 bg-base-100 shadow-xl">
+                                <figure class="px-10 pt-10">
+                                    <img src="assats/class2.png" alt="Shoes" class="rounded-xl" />
+                                </figure>
+                                <div class="card-body items-center text-center">
+                                    <h2 class="card-title">Class-2</h2>
+                                    <p>If a dog chews shoes whose shoes does he choose?</p>
+                                    <div class="card-actions">
+                                        <button
+                                            class="btn bg-gradient-to-l from-[#202853] to-[#bf7dea] text-white mb-6">Explore
+                                            More</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="card w-72 lg:w-96 bg-base-100 shadow-xl">
+                                <figure class="px-10 pt-10">
+                                    <img src="assats/class3.png" alt="Shoes" class="rounded-xl" />
+                                </figure>
+                                <div class="card-body items-center text-center">
+                                    <h2 class="card-title">Class-3</h2>
+                                    <p>If a dog chews shoes whose shoes does he choose?</p>
+                                    <div class="card-actions">
+                                        <button
+                                            class="btn bg-gradient-to-l from-[#202853] to-[#bf7dea] text-white mb-6">Explore
+                                            More</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+
+                    <div
+                        class="flex lg:flex-row flex-col justify-center items-center mt-4 gap-5 lg:gap-20 lg:mt-10 mb-5">
+
+
+                        <div>
+                            <div class="card w-72 lg:w-96 bg-base-100 shadow-xl">
+                                <figure class="px-10 pt-10">
+                                    <img src="assats/class-4.jpeg" alt="Shoes" class="rounded-xl" />
+                                </figure>
+                                <div class="card-body items-center text-center">
+                                    <h2 class="card-title">Class-4</h2>
+                                    <p>If a dog chews shoes whose shoes does he choose?</p>
+                                    <div class="card-actions">
+                                        <button
+                                            class="btn bg-gradient-to-l from-[#202853] to-[#bf7dea] text-white mb-6">Explore
+                                            More</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="card w-72 lg:w-96 bg-base-100 shadow-xl">
+                                <figure class="px-10 pt-10">
+                                    <img src="assats/class-5.jpeg" alt="Shoes" class="rounded-xl" />
+                                </figure>
+                                <div class="card-body items-center text-center">
+                                    <h2 class="card-title">Class-5</h2>
+                                    <p>If a dog chews shoes whose shoes does he choose?</p>
+                                    <div class="card-actions">
+                                        <button
+                                            class="btn bg-gradient-to-l from-[#202853] to-[#bf7dea] text-white mb-6">Explore
+                                            More</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+
+                </div>
+
+                <div class="mt-5 lg:p-4 border-2 border-black m-6">
+
+                    <div>
+                        <h1 class="lg:text-5xl text-3xl font-bold flex justify-center items-center mt-5">
+                            Secondary Level :
+                        </h1>
+                    </div>
+
+                    <div class="flex lg:flex-row flex-col justify-between items-center lg:px-10 px-0 gap-5 mt-10">
+
+                        <div>
+                            <div class="card w-72 lg:w-96 bg-base-100 shadow-xl">
+                                <figure class="px-10 pt-10">
+                                    <img src="assats/class-6.jpeg" alt="Shoes" class="rounded-xl" />
+                                </figure>
+                                <div class="card-body items-center text-center">
+                                    <h2 class="card-title">Class-6</h2>
+                                    <p>If a dog chews shoes whose shoes does he choose?</p>
+                                    <div class="card-actions">
+                                        <button
+                                            class="btn bg-gradient-to-l from-[#202853] to-[#bf7dea] text-white mb-6">Explore
+                                            More</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="card w-72 lg:w-96 bg-base-100 shadow-xl">
+                                <figure class="px-10 pt-10">
+                                    <img src="assats/class-7.jpeg" alt="Shoes" class="rounded-xl" />
+                                </figure>
+                                <div class="card-body items-center text-center">
+                                    <h2 class="card-title">Class-7</h2>
+                                    <p>If a dog chews shoes whose shoes does he choose?</p>
+                                    <div class="card-actions">
+                                        <button
+                                            class="btn bg-gradient-to-l from-[#202853] to-[#bf7dea] text-white mb-6">Explore
+                                            More</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="card w-72 lg:w-96 bg-base-100 shadow-xl">
+                                <figure class="px-10 pt-10">
+                                    <img src="assats/class-8.jpeg" alt="Shoes" class="rounded-xl" />
+                                </figure>
+                                <div class="card-body items-center text-center">
+                                    <h2 class="card-title">Class-8</h2>
+                                    <p>If a dog chews shoes whose shoes does he choose?</p>
+                                    <div class="card-actions">
+                                        <button
+                                            class="btn bg-gradient-to-l from-[#202853] to-[#bf7dea] text-white mb-6">Explore
+                                            More</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+
+                    <div
+                        class="flex lg:flex-row flex-col justify-center items-center mt-4 gap-5 lg:gap-20 lg:mt-10 mb-5">
+
+
+                        <div>
+                            <div class="card w-72 lg:w-96 bg-base-100 shadow-xl">
+                                <figure class="px-10 pt-10">
+                                    <img src="assats/class-9.jpeg" alt="Shoes" class="rounded-xl" />
+                                </figure>
+                                <div class="card-body items-center text-center">
+                                    <h2 class="card-title">class-9</h2>
+                                    <p>If a dog chews shoes whose shoes does he choose?</p>
+                                    <div class="card-actions">
+                                        <button
+                                            class="btn bg-gradient-to-l from-[#202853] to-[#bf7dea] text-white mb-6">Explore
+                                            More</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="card w-72 lg:w-96 bg-base-100 shadow-xl">
+                                <figure class="px-10 pt-10">
+                                    <img src="assats/class-9.jpeg" alt="Shoes" class="rounded-xl" />
+                                </figure>
+                                <div class="card-body items-center text-center">
+                                    <h2 class="card-title">Class-10</h2>
+                                    <p>If a dog chews shoes whose shoes does he choose?</p>
+                                    <div class="card-actions">
+                                        <button
+                                            class="btn bg-gradient-to-l from-[#202853] to-[#bf7dea] text-white mb-6">Explore
+                                            More</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+
+                </div>
+
+                <div class="flex justify-center items-center">
+                    <button class="btn bg-gradient-to-l from-[#202853] to-[#bf7dea] text-white "><a
+                            href="education.html">Back</a></button>
+                </div>
+            </section>
+
+            <!-- college div -->
+
+            <section id="college" class="hidden">
+                <div class="mt-5 lg:p-4 border-2 border-black m-6">
+
+                    <div>
+                        <h1 class="lg:text-5xl text-3xl font-bold flex justify-center items-center mt-5">
+                            Higher Secondary :
+                        </h1>
+                    </div>
+
+                    <div class="flex lg:flex-row flex-col justify-between items-center lg:px-10 px-0 gap-5 mt-10">
+
+                        <div>
+                            <div class="card w-72 lg:w-96 bg-base-100 shadow-xl">
+                                <figure class="px-10 pt-10">
+                                    <img src="assats/class1.png" alt="Shoes" class="rounded-xl" />
+                                </figure>
+                                <div class="card-body items-center text-center">
+                                    <h2 class="card-title">Science</h2>
+                                    <p>If a dog chews shoes whose shoes does he choose?</p>
+                                    <div class="card-actions">
+                                        <button
+                                            class="btn bg-gradient-to-l from-[#202853] to-[#bf7dea] text-white mb-6">Explore
+                                            More</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="card w-72 lg:w-96 bg-base-100 shadow-xl">
+                                <figure class="px-10 pt-10">
+                                    <img src="assats/class2.png" alt="Shoes" class="rounded-xl" />
+                                </figure>
+                                <div class="card-body items-center text-center">
+                                    <h2 class="card-title">Business</h2>
+                                    <p>If a dog chews shoes whose shoes does he choose?</p>
+                                    <div class="card-actions">
+                                        <button
+                                            class="btn bg-gradient-to-l from-[#202853] to-[#bf7dea] text-white mb-6">Explore
+                                            More</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="card w-72 lg:w-96 bg-base-100 shadow-xl mb-7">
+                                <figure class="px-10 pt-10">
+                                    <img src="assats/class3.png" alt="Shoes" class="rounded-xl" />
+                                </figure>
+                                <div class="card-body items-center text-center">
+                                    <h2 class="card-title">Humanity</h2>
+                                    <p>If a dog chews shoes whose shoes does he choose?</p>
+                                    <div class="card-actions">
+                                        <button
+                                            class="btn bg-gradient-to-l from-[#202853] to-[#bf7dea] text-white mb-6">Explore
+                                            More</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+
+                    <!-- <div
+                        class="flex lg:flex-row flex-col justify-center items-center mt-4 gap-5 lg:gap-20 lg:mt-10 mb-5">
+
+
+                        <div>
+                            <div class="card w-72 lg:w-96 bg-base-100 shadow-xl">
+                                <figure class="px-10 pt-10">
+                                    <img src="assats/class-4.jpeg" alt="Shoes" class="rounded-xl" />
+                                </figure>
+                                <div class="card-body items-center text-center">
+                                    <h2 class="card-title">Class-4</h2>
+                                    <p>If a dog chews shoes whose shoes does he choose?</p>
+                                    <div class="card-actions">
+                                        <button
+                                            class="btn bg-gradient-to-l from-[#202853] to-[#bf7dea] text-white mb-6">Explore
+                                            More</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="card w-72 lg:w-96 bg-base-100 shadow-xl">
+                                <figure class="px-10 pt-10">
+                                    <img src="assats/class-5.jpeg" alt="Shoes" class="rounded-xl" />
+                                </figure>
+                                <div class="card-body items-center text-center">
+                                    <h2 class="card-title">Class-5</h2>
+                                    <p>If a dog chews shoes whose shoes does he choose?</p>
+                                    <div class="card-actions">
+                                        <button
+                                            class="btn bg-gradient-to-l from-[#202853] to-[#bf7dea] text-white mb-6">Explore
+                                            More</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div> -->
+
+
+                </div>
+
+                <!-- <div class="mt-5 lg:p-4 border-2 border-black m-6">
+
+                    <div>
+                        <h1 class="lg:text-5xl text-3xl font-bold flex justify-center items-center mt-5">
+                            Secondary Level :
+                        </h1>
+                    </div>
+
+                    <div class="flex lg:flex-row flex-col justify-between items-center lg:px-10 px-0 gap-5 mt-10">
+
+                        <div>
+                            <div class="card w-72 lg:w-96 bg-base-100 shadow-xl">
+                                <figure class="px-10 pt-10">
+                                    <img src="assats/class-6.jpeg" alt="Shoes" class="rounded-xl" />
+                                </figure>
+                                <div class="card-body items-center text-center">
+                                    <h2 class="card-title">Class-6</h2>
+                                    <p>If a dog chews shoes whose shoes does he choose?</p>
+                                    <div class="card-actions">
+                                        <button
+                                            class="btn bg-gradient-to-l from-[#202853] to-[#bf7dea] text-white mb-6">Explore
+                                            More</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="card w-72 lg:w-96 bg-base-100 shadow-xl">
+                                <figure class="px-10 pt-10">
+                                    <img src="assats/class-7.jpeg" alt="Shoes" class="rounded-xl" />
+                                </figure>
+                                <div class="card-body items-center text-center">
+                                    <h2 class="card-title">Class-7</h2>
+                                    <p>If a dog chews shoes whose shoes does he choose?</p>
+                                    <div class="card-actions">
+                                        <button
+                                            class="btn bg-gradient-to-l from-[#202853] to-[#bf7dea] text-white mb-6">Explore
+                                            More</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="card w-72 lg:w-96 bg-base-100 shadow-xl">
+                                <figure class="px-10 pt-10">
+                                    <img src="assats/class-8.jpeg" alt="Shoes" class="rounded-xl" />
+                                </figure>
+                                <div class="card-body items-center text-center">
+                                    <h2 class="card-title">Class-8</h2>
+                                    <p>If a dog chews shoes whose shoes does he choose?</p>
+                                    <div class="card-actions">
+                                        <button
+                                            class="btn bg-gradient-to-l from-[#202853] to-[#bf7dea] text-white mb-6">Explore
+                                            More</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+
+                    <div
+                        class="flex lg:flex-row flex-col justify-center items-center mt-4 gap-5 lg:gap-20 lg:mt-10 mb-5">
+
+
+                        <div>
+                            <div class="card w-72 lg:w-96 bg-base-100 shadow-xl">
+                                <figure class="px-10 pt-10">
+                                    <img src="assats/class-9.jpeg" alt="Shoes" class="rounded-xl" />
+                                </figure>
+                                <div class="card-body items-center text-center">
+                                    <h2 class="card-title">class-9</h2>
+                                    <p>If a dog chews shoes whose shoes does he choose?</p>
+                                    <div class="card-actions">
+                                        <button
+                                            class="btn bg-gradient-to-l from-[#202853] to-[#bf7dea] text-white mb-6">Explore
+                                            More</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="card w-72 lg:w-96 bg-base-100 shadow-xl">
+                                <figure class="px-10 pt-10">
+                                    <img src="assats/class-9.jpeg" alt="Shoes" class="rounded-xl" />
+                                </figure>
+                                <div class="card-body items-center text-center">
+                                    <h2 class="card-title">Class-10</h2>
+                                    <p>If a dog chews shoes whose shoes does he choose?</p>
+                                    <div class="card-actions">
+                                        <button
+                                            class="btn bg-gradient-to-l from-[#202853] to-[#bf7dea] text-white mb-6">Explore
+                                            More</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+
+                </div> -->
+
+                <div class="flex justify-center items-center">
+                    <button class="btn bg-gradient-to-l from-[#202853] to-[#bf7dea] text-white "><a
+                            href="education.html">Back</a></button>
+                </div>
+            </section>
+
+        </section>
 
     </main>
 
@@ -142,6 +626,9 @@
 
 
     </footer>
+
+
+    <script src="edu.js"></script>
 
 </body>
 
